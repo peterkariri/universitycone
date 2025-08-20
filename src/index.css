@@ -1,0 +1,58 @@
+body{
+    margin: 0;  
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    background-color: rgb(4, 4, 65);
+    padding: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.two{
+    position:fixed;
+    top: 12px;
+    right: 50px;
+}
+.one{
+    position: relative;
+    left: 800px;
+
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+}
+.navigation nav ul{
+    display: flex;
+    align-self: center;
+    gap: 10px;
+}
+.navigation nav li{
+    list-style: none;
+}
+.navigation nav a{
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+}
+.new-combo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
